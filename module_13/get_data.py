@@ -97,7 +97,7 @@ print('Names and boroughs of all restaurants in Queens:\n')
 get_values_in_search(
     restaurants_collection,
     {'borough': 'Queens', 'cuisine': 'American'},
-    {'name': 1}, ['name']
+    {'name': 1, 'borough': 1}, ['name', 'borough']
 )
 
 
